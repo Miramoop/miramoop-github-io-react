@@ -26,7 +26,7 @@ function Header() {
                 <a href="#header">Home</a>
               </li>
               <li className="menu-item">
-                <a href="#about">About</a>
+                <a href="#aboutme">About</a>
               </li>
               <li className="menu-item">
                 <a href="#experience">Experience</a>
@@ -42,7 +42,7 @@ function Header() {
                 <a href="#header">Home</a>
               </li>
               <li className="menu-item">
-                <a href="#about">About</a>
+                <a href="#aboutme">About</a>
               </li>
               <li className="menu-item">
                 <a href="#experience">Experience</a>
