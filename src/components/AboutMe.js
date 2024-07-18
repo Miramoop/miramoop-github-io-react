@@ -24,6 +24,7 @@ function AboutMe() {
           role="tab"
           className="tab"
           aria-label="Skills"
+          defaultChecked
         />
         <div role="tabpanel" className="tab-content p-10">
           <ul>
@@ -60,7 +61,6 @@ function AboutMe() {
           role="tab"
           className="tab"
           aria-label="Projects"
-          defaultChecked
         />
         <div role="tabpanel" className="tab-content p-10">
           <ul>
