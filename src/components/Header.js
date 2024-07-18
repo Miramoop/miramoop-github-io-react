@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
+    // <header style={{ backgroundColor: "#7B2F93" }}>
     <header>
       <div className="navbar">
         <div className="navbar-start">

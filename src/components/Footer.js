@@ -9,6 +9,10 @@ import {
 
 function Footer() {
   return (
+    // <footer
+    //   className="footer footer-center text-primary-content p-2"
+    //   style={{ backgroundColor: "#BC7CCC" }}
+    // >
     <footer className="footer footer-center text-primary-content p-2">
       <aside>
         <img id="miramoopLogo" src="/img/logo/logo.png" alt="Miramoop Logo" />
