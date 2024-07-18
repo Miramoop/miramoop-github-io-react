@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Profiler } from "react";
 
 //Possibly add a popup that explains the difference between the two button links,
 //rather than having to explain them in the paragraph section of the card
 
-function MyWork() {
+function Portfolio() {
   return (
     <div className="flex gap-6">
       <div className="card bg-base-100 w-96 shadow-xl">
@@ -135,4 +135,4 @@ function MyWork() {
   );
 }
 
-export default MyWork;
+export default Portfolio;

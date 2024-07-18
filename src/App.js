@@ -3,10 +3,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
-import MyWork from "./components/MyWork";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-
-// import "./styles/styles.css";
+import "./styles/styles.css";
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Experience />
-      <MyWork />
+      <Portfolio />
       <Footer />
     </div>
   );
