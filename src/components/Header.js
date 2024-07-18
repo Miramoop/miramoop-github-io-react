@@ -1,39 +1,59 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
-  return <p>I am the header!</p>;
+  return (
+    <header>
+      <div className="navbar">
+        <div className="navbar-start">
+          <img id="headerLogo" src="/img/logo/logo.png" alt="Miramoop Logo" />
+        </div>
+        <div className="navbar-end">
+          <div className="dropdown lg:hidden">
+            <button
+              className="header-navigation-bar-button lg:hidden"
+              aria-label="Navigation Bar Button"
+            >
+              <FontAwesomeIcon icon={faBars} size="1x" />
+            </button>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 p-2"
+            >
+              <li className="menu-item">
+                <a href="#header">Home</a>
+              </li>
+              <li className="menu-item">
+                <a href="#about">About</a>
+              </li>
+              <li className="menu-item">
+                <a href="#experience">Experience</a>
+              </li>
+              <li className="menu-item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+          <div className="navbar-center hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">
+              <li className="menu-item">
+                <a href="#header">Home</a>
+              </li>
+              <li className="menu-item">
+                <a href="#about">About</a>
+              </li>
+              <li className="menu-item">
+                <a href="#experience">Experience</a>
+              </li>
+              <li className="menu-item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
 }
 export default Header;
-
-{
-  /* <div id="header">
-<div class="container">
-    <nav>
-        <img src="img/logo/logo.png" alt="Miramoop Logo" class="logo">
-        <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-        <div class="hamburger-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </nav>
-
-    <div class="header-text" onclick="openmenu()">
-        <p>Compsci Student</p>
-        <h1>Hi, I'm <span>Miranda</span></h1>
-    </div>
-
-    <div class="social-icons">
-        <a href="https://www.linkedin.com/in/mirandamorris845/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-linkedin-box-fill"></i></a>
-        <a href="https://github.com/Miramoop" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-github-fill"></i></a>
-        <a href="https://miramoop.itch.io/" target="_blank" rel="noopener" rel="noreferrer"><i class="ri-gamepad-line"></i></a>
-        <a href="mailto:juniperistic@gmail.com"><i class="ri-mail-line"></i></a>
-    </div>
-</div>
-</div> */
-}
