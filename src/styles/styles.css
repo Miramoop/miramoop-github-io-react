@@ -1,4 +1,61 @@
 @import "./tailwind.css";
 @import "daisyui/dist/full.css";
+.navbar {
+  background-color: #7b2f93;
+}
+
+.header-navigation-bar-button {
+  padding-right: 10px;
+}
+
+#aboutme {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutmebio {
+  margin-bottom: 20px;
+}
+
+.tabpanel {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: gray;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.tab-content {
+  color: gray;
+}
+.tab-content ul li span {
+  font-weight: bold;
+  color: purple;
+}
 
 /*# sourceMappingURL=styles.css.map */

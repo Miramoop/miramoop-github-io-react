@@ -13,9 +13,9 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
-      <Experience />
+      {/* <Experience />
       <Portfolio />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
