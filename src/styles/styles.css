@@ -51,6 +51,7 @@ h1 {
 }
 
 .tab-content {
+  padding: 10px;
   color: gray;
 }
 .tab-content ul li span {

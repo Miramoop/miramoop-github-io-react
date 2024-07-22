@@ -1,6 +1,7 @@
 import React from "react";
 
 // Add styles to the tabs
+// Change the tab labels from aria-labels to another label to allow for more style customizing
 function AboutMe() {
   return (
     <section id="aboutme">
@@ -29,7 +30,7 @@ function AboutMe() {
             aria-label="Skills"
             defaultChecked
           />
-          <div role="tabpanel" className="tab-content p-10">
+          <div role="tabpanel" className="tab-content">
             <ul>
               <li>
                 <span>Visual Studio & Visual Studio Code</span>
@@ -65,7 +66,7 @@ function AboutMe() {
             className="tab"
             aria-label="Projects"
           />
-          <div role="tabpanel" className="tab-content p-10">
+          <div role="tabpanel" className="tab-content">
             <ul>
               <li>
                 <span> May 2024 - Current</span>
@@ -97,7 +98,7 @@ function AboutMe() {
             className="tab"
             aria-label="Education"
           />
-          <div role="tabpanel" className="tab-content p-10">
+          <div role="tabpanel" className="tab-content">
             <ul>
               <li>
                 <span>2019 - Current</span>
