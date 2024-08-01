@@ -1,0 +1,28 @@
+#experience {
+  padding: 20px;
+}
+
+.card {
+  padding: 5px;
+  &:focus,
+  &:hover {
+    background-color: #925b71;
+    transform: translateY(-10px);
+  }
+}
+
+// /* Add this to your CSS file */
+// #experience {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center; /* Center cards horizontally */
+// }
+
+// .card {
+//   transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+// }
+
+// .card:hover {
+//   background-color: #925b71;
+//   transform: translateY(-10px);
+// }

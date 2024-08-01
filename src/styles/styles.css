@@ -1,7 +1,8 @@
 @import "./tailwind.css";
 @import "daisyui/dist/full.css";
 .navbar {
-  background-color: #7b2f93;
+  background-color: #622574;
+  color: #ffffff;
 }
 
 .header-navigation-bar-button {
@@ -16,51 +17,72 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: #ccadba;
+  padding: 10px;
 }
-
-.about-col-1 {
-  flex-basis: 35%;
+#aboutme .about-col-1 {
+  flex-basis: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-img {
+#aboutme .about-col-1 img {
   width: 100%;
   max-width: 500px;
+  border-radius: 5%;
 }
-
-.about-col-2 {
-  flex-basis: 60%;
+#aboutme .about-col-2 {
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
-
-.aboutmebio {
+#aboutme .aboutmebio {
   margin-bottom: 20px;
 }
-
-.tabpanel {
-  display: flex;
-  flex-direction: column;
-}
-
-p {
-  color: gray;
-}
-
-h1 {
+#aboutme .tab-content li span {
   font-weight: bold;
+  color: #030202;
+}
+#aboutme .tab-content li {
+  color: #0d1c5e;
+}
+#aboutme p {
+  color: #0d1c5e;
+}
+#aboutme h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #030202;
+}
+#aboutme .tab {
+  font-weight: bold;
+  color: #0d1c5e !important;
+}
+@media (max-width: 768px) {
+  #aboutme #aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+  #aboutme .about-col-1,
+  #aboutme .about-col-2 {
+    flex-basis: 100%;
+  }
+  #aboutme .about-col-2 {
+    margin-top: 20px;
+  }
 }
 
-.tab-content {
-  padding: 10px;
-  color: gray;
+#experience {
+  padding: 20px;
 }
-.tab-content ul li span {
-  font-weight: bold;
-  color: purple;
+
+.card {
+  padding: 5px;
+}
+.card:focus, .card:hover {
+  background-color: #925b71;
+  transform: translateY(-10px);
 }
 
 /*# sourceMappingURL=styles.css.map */
