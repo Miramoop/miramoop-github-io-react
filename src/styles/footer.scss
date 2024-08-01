@@ -1,9 +1,9 @@
 footer {
-  background-color: #cfa19f;
-  color: #000;
+  background-color: $pinkOne;
+  color: $blackOne;
   margin: 0;
   padding: 10px 0;
-  row-gap: rem;
+  row-gap: 1rem;
   text-align: center;
   width: 100%;
 
@@ -22,8 +22,8 @@ footer {
 
       &:focus,
       &:hover {
-        background-color: #925b71;
-        outline: 2px solid #000;
+        background-color: $buttonHoverOne;
+        outline: 2px solid $buttonOutlineOne;
         outline-offset: 2px;
         transform: scale(0.8);
       }

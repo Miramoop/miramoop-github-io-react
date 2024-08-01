@@ -2,7 +2,7 @@
 @import "daisyui/dist/full.css";
 .navbar {
   background-color: #622574;
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-navigation-bar-button {
@@ -31,7 +31,7 @@ footer {
   color: #000;
   margin: 0;
   padding: 10px 0;
-  row-gap: rem;
+  row-gap: 1rem;
   text-align: center;
   width: 100%;
 }
@@ -69,26 +69,26 @@ footer .social-links a:focus, footer .social-links a:hover {
 }
 
 #aboutme {
+  background-color: #9382c4;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #9382c4;
   padding: 10px;
 }
 #aboutme .about-col-1 {
-  flex-basis: 35%;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-basis: 35%;
+  justify-content: center;
 }
 #aboutme .about-col-1 img {
-  width: 100%;
-  max-width: 500px;
   border-radius: 5%;
+  max-width: 500px;
+  width: 100%;
 }
 #aboutme .about-col-2 {
-  flex-basis: 60%;
   display: flex;
+  flex-basis: 60%;
   flex-direction: column;
   gap: 10px;
 }
@@ -96,8 +96,8 @@ footer .social-links a:focus, footer .social-links a:hover {
   margin-bottom: 20px;
 }
 #aboutme .tab-content li span {
-  font-weight: bold;
   color: #030202;
+  font-weight: bold;
 }
 #aboutme .tab-content li {
   color: #0d1c5e;
@@ -107,18 +107,18 @@ footer .social-links a:focus, footer .social-links a:hover {
   max-width: 900px;
 }
 #aboutme h1 {
+  color: #030202;
   font-weight: bold;
   font-size: 50px;
-  color: #030202;
 }
 #aboutme .tab {
-  font-weight: bold;
   color: #0d1c5e !important;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   #aboutme #aboutme {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
   #aboutme .about-col-1,
   #aboutme .about-col-2 {
@@ -130,18 +130,18 @@ footer .social-links a:focus, footer .social-links a:hover {
 }
 
 #experience {
-  padding: 20px;
   background-color: #a8bbc0;
+  padding: 20px;
 }
 #experience h1 {
+  color: #030202;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
-  color: #000;
 }
 #experience .card {
-  padding: 5px;
   background-color: #839b88;
+  padding: 5px;
 }
 #experience .card:focus, #experience .card:hover {
   background-color: #925b71;
@@ -153,20 +153,20 @@ footer .social-links a:focus, footer .social-links a:hover {
   padding: 20px;
 }
 #portfolio h1 {
+  color: #030202;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
-  color: #000;
 }
 #portfolio p {
-  color: #000;
+  color: #030202;
 }
 #portfolio h2 {
   color: #0d1c5e;
 }
 #portfolio .card {
-  padding: 5px;
   background-color: #b6ab87;
+  padding: 5px;
 }
 #portfolio .card:focus, #portfolio .card:hover {
   filter: brightness(85%);

@@ -1,20 +1,20 @@
 #experience {
+  background-color: $greenOne;
   padding: 20px;
-  background-color: #a8bbc0;
 
   h1 {
+    color: $secondaryTextColor;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 20px;
-    color: #000;
   }
 
   .card {
+    background-color: $greenTwo;
     padding: 5px;
-    background-color: #839b88;
     &:focus,
     &:hover {
-      background-color: #925b71;
+      background-color: $buttonHoverOne;
       transform: translateY(-10px);
     }
   }

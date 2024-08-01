@@ -6,8 +6,8 @@
     transition: transform 0.5s;
     &:focus,
     &:hover {
-      background-color: #925b71;
-      outline: 2px solid #000;
+      background-color: $buttonHoverOne;
+      outline: 2px solid $buttonOutlineOne;
       outline-offset: 2px;
       transform: scale(0.8);
     }

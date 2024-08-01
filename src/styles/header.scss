@@ -1,6 +1,6 @@
 .navbar {
-  background-color: #622574;
-  color: #ffffff;
+  background-color: $purpleOne;
+  color: $whiteOne;
 }
 
 .header-navigation-bar-button {
@@ -8,7 +8,7 @@
 
   &:focus,
   &:hover {
-    background-color: #925b71;
+    background-color: $buttonHoverOne;
   }
 }
 
@@ -16,8 +16,8 @@
   padding: 10px;
   &:focus,
   &:hover {
-    background-color: #925b71;
-    outline: 2px solid #000;
+    background-color: $buttonHoverOne;
+    outline: 2px solid $buttonOutlineOne;
     outline-offset: 2px;
     transform: scale(0.9);
   }
