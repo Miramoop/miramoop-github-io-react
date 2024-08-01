@@ -8,6 +8,10 @@
   padding-right: 10px;
 }
 
+#headerLogo {
+  max-width: 200px;
+}
+
 #aboutme {
   display: flex;
   justify-content: space-between;
