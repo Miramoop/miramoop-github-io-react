@@ -76,7 +76,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   padding: 10px;
 }
 #aboutme .about-col-1 {
-  flex-basis: 45%;
+  flex-basis: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +87,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   border-radius: 5%;
 }
 #aboutme .about-col-2 {
-  flex-basis: 50%;
+  flex-basis: 60%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -104,6 +104,7 @@ footer .social-links a:focus, footer .social-links a:hover {
 }
 #aboutme p {
   color: #0d1c5e;
+  max-width: 900px;
 }
 #aboutme h1 {
   font-weight: bold;
@@ -136,6 +137,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
+  color: #000;
 }
 #experience .card {
   padding: 5px;
@@ -154,6 +156,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
+  color: #000;
 }
 #portfolio p {
   color: #000;
