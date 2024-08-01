@@ -1,4 +1,176 @@
 @import "./tailwind.css";
 @import "daisyui/dist/full.css";
+.navbar {
+  background-color: #622574;
+  color: #fff;
+}
+
+.header-navigation-bar-button {
+  padding-right: 10px;
+}
+.header-navigation-bar-button:focus, .header-navigation-bar-button:hover {
+  background-color: #925b71;
+}
+
+.menu-item {
+  padding: 10px;
+}
+.menu-item:focus, .menu-item:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.9);
+}
+
+#headerLogo {
+  max-width: 200px;
+}
+
+footer {
+  background-color: #cfa19f;
+  color: #000;
+  margin: 0;
+  padding: 10px 0;
+  row-gap: 1rem;
+  text-align: center;
+  width: 100%;
+}
+footer .copyright,
+footer .connections {
+  font-weight: bold;
+}
+footer .social-links {
+  display: flex;
+}
+footer .social-links a {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+footer .social-links a:focus, footer .social-links a:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.8);
+}
+
+#hero a {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+#hero a:focus, #hero a:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.8);
+}
+
+#aboutme {
+  background-color: #9382c4;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#aboutme .about-col-1 {
+  align-items: center;
+  display: flex;
+  flex-basis: 35%;
+  justify-content: center;
+}
+#aboutme .about-col-1 img {
+  border-radius: 5%;
+  max-width: 500px;
+  width: 100%;
+}
+#aboutme .about-col-2 {
+  display: flex;
+  flex-basis: 60%;
+  flex-direction: column;
+  gap: 10px;
+}
+#aboutme .aboutmebio {
+  margin-bottom: 20px;
+}
+#aboutme .tab-content li span {
+  color: #030202;
+  font-weight: bold;
+}
+#aboutme .tab-content li {
+  color: #0d1c5e;
+}
+#aboutme p {
+  color: #0d1c5e;
+  max-width: 900px;
+}
+#aboutme h1 {
+  color: #030202;
+  font-weight: bold;
+  font-size: 50px;
+}
+#aboutme .tab {
+  color: #0d1c5e !important;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  #aboutme #aboutme {
+    align-items: center;
+    flex-direction: column;
+  }
+  #aboutme .about-col-1,
+  #aboutme .about-col-2 {
+    flex-basis: 100%;
+  }
+  #aboutme .about-col-2 {
+    margin-top: 20px;
+  }
+}
+
+#experience {
+  background-color: #a8bbc0;
+  padding: 20px;
+}
+#experience h1 {
+  color: #030202;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#experience .card {
+  background-color: #839b88;
+  padding: 5px;
+}
+#experience .card:focus, #experience .card:hover {
+  background-color: #925b71;
+  transform: translateY(-10px);
+}
+
+#portfolio {
+  background-color: #d0c7af;
+  padding: 20px;
+}
+#portfolio h1 {
+  color: #030202;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#portfolio p {
+  color: #030202;
+}
+#portfolio h2 {
+  color: #0d1c5e;
+}
+#portfolio .card {
+  background-color: #b6ab87;
+  padding: 5px;
+}
+#portfolio .card:focus, #portfolio .card:hover {
+  filter: brightness(85%);
+  transform: translateY(-10px);
+}
 
 /*# sourceMappingURL=styles.css.map */

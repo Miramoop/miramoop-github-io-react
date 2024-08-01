@@ -1,4 +1,4 @@
-import React, { Profiler } from "react";
+import React from "react";
 
 //Possibly add a popup that explains the difference between the two button links,
 //rather than having to explain them in the paragraph section of the card
@@ -6,7 +6,8 @@ import React, { Profiler } from "react";
 function Portfolio() {
   return (
     <section id="portfolio">
-      <div className="flex gap-6">
+      <h1>Portfolio</h1>
+      <div className="flex flex-wrap gap-6 justify-center">
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img src="/img/projects/project1.png" alt="project1" />

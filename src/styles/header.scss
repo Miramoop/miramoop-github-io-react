@@ -1,0 +1,28 @@
+.navbar {
+  background-color: $purpleOne;
+  color: $whiteOne;
+}
+
+.header-navigation-bar-button {
+  padding-right: 10px;
+
+  &:focus,
+  &:hover {
+    background-color: $buttonHoverOne;
+  }
+}
+
+.menu-item {
+  padding: 10px;
+  &:focus,
+  &:hover {
+    background-color: $buttonHoverOne;
+    outline: 2px solid $buttonOutlineOne;
+    outline-offset: 2px;
+    transform: scale(0.9);
+  }
+}
+
+#headerLogo {
+  max-width: 200px;
+}

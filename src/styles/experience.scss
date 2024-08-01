@@ -1,0 +1,21 @@
+#experience {
+  background-color: $greenOne;
+  padding: 20px;
+
+  h1 {
+    color: $secondaryTextColor;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    background-color: $greenTwo;
+    padding: 5px;
+    &:focus,
+    &:hover {
+      background-color: $buttonHoverOne;
+      transform: translateY(-10px);
+    }
+  }
+}
