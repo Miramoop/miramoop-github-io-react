@@ -1,12 +1,10 @@
 import React from "react";
 
-// Add styles to the tabs
-// Change the tab labels from aria-labels to another label to allow for more style customizing
 function AboutMe() {
   return (
     <section id="aboutme">
       <div className="about-col-1">
-        <img src="/img/user.jpg" />
+        <img src="/img/self.jpg" alt="Miranda (aka Miramoop)" />
       </div>
 
       <div className="about-col-2">

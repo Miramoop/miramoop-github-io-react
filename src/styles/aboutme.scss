@@ -2,49 +2,78 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.about-col-1 {
-  flex-basis: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-img {
-  width: 100%;
-  max-width: 500px;
-}
-
-.about-col-2 {
-  flex-basis: 60%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.aboutmebio {
-  margin-bottom: 20px;
-}
-
-.tabpanel {
-  display: flex;
-  flex-direction: column;
-}
-
-p {
-  color: gray;
-}
-
-h1 {
-  font-weight: bold;
-}
-
-.tab-content {
+  background-color: #ccadba;
   padding: 10px;
-  color: gray;
-  ul li span {
+
+  .about-col-1 {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 5%;
+    }
+  }
+
+  .about-col-2 {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .aboutmebio {
+    margin-bottom: 20px;
+  }
+
+  .tab-content li span {
     font-weight: bold;
-    color: purple;
+    color: #030202;
+  }
+
+  .tab-content li {
+    color: #0d1c5e;
+  }
+
+  p {
+    color: #0d1c5e;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #030202;
+  }
+
+  .tab {
+    font-weight: bold;
+    color: #0d1c5e !important;
+
+    //Need to add more padding or spacing to make the outline show up properly
+    // &:focus,
+    // &:hover {
+    //   background-color: #925b71;
+    //   outline: 2px solid black;
+    //   outline-offset: 2px;
+    //   transform: scale(1.1);
+    // }
+  }
+
+  @media (max-width: 768px) {
+    #aboutme {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-col-1,
+    .about-col-2 {
+      flex-basis: 100%;
+    }
+
+    .about-col-2 {
+      margin-top: 20px;
+    }
   }
 }
