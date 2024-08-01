@@ -11,6 +11,7 @@ import { faUnity } from "@fortawesome/free-brands-svg-icons";
 function Experience() {
   return (
     <section id="experience">
+      <h1>Experience</h1>
       <div className="flex flex-wrap gap-6 justify-center">
         <div className="card bg-base-100 w-96 shadow-xl">
           <div className="card-body">

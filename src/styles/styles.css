@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ccadba;
+  background-color: #bfafc6;
   padding: 10px;
 }
 #aboutme .about-col-1 {
@@ -75,13 +75,43 @@
 
 #experience {
   padding: 20px;
+  background-color: #a8bbc0;
+}
+#experience h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#experience .card {
+  padding: 5px;
+  background-color: #839b88;
+}
+#experience .card:focus, #experience .card:hover {
+  background-color: #925b71;
+  transform: translateY(-10px);
 }
 
-.card {
-  padding: 5px;
+#portfolio {
+  background-color: #d0c7af;
+  padding: 20px;
 }
-.card:focus, .card:hover {
-  background-color: #925b71;
+#portfolio h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#portfolio p {
+  color: #000;
+}
+#portfolio h2 {
+  color: #0d1c5e;
+}
+#portfolio .card {
+  padding: 5px;
+  background-color: #b6ab87;
+}
+#portfolio .card:focus, #portfolio .card:hover {
+  filter: brightness(85%);
   transform: translateY(-10px);
 }
 
