@@ -8,16 +8,71 @@
 .header-navigation-bar-button {
   padding-right: 10px;
 }
+.header-navigation-bar-button:focus, .header-navigation-bar-button:hover {
+  background-color: #925b71;
+}
+
+.menu-item {
+  padding: 10px;
+}
+.menu-item:focus, .menu-item:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.9);
+}
 
 #headerLogo {
   max-width: 200px;
+}
+
+footer {
+  background-color: #cfa19f;
+  color: #000;
+  margin: 0;
+  padding: 10px 0;
+  row-gap: rem;
+  text-align: center;
+  width: 100%;
+}
+footer .copyright,
+footer .connections {
+  font-weight: bold;
+}
+footer .social-links {
+  display: flex;
+}
+footer .social-links a {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+footer .social-links a:focus, footer .social-links a:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.8);
+}
+
+#hero a {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+#hero a:focus, #hero a:hover {
+  background-color: #925b71;
+  outline: 2px solid #000;
+  outline-offset: 2px;
+  transform: scale(0.8);
 }
 
 #aboutme {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #bfafc6;
+  background-color: #9382c4;
   padding: 10px;
 }
 #aboutme .about-col-1 {

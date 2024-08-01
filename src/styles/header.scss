@@ -5,6 +5,22 @@
 
 .header-navigation-bar-button {
   padding-right: 10px;
+
+  &:focus,
+  &:hover {
+    background-color: #925b71;
+  }
+}
+
+.menu-item {
+  padding: 10px;
+  &:focus,
+  &:hover {
+    background-color: #925b71;
+    outline: 2px solid #000;
+    outline-offset: 2px;
+    transform: scale(0.9);
+  }
 }
 
 #headerLogo {
