@@ -6,20 +6,29 @@
 }
 
 .header-navigation-bar-button {
-  padding-right: 10px;
+  margin-right: 10px;
+  padding: 5px;
 }
 .header-navigation-bar-button:focus, .header-navigation-bar-button:hover {
   background-color: #925b71;
 }
 
 .menu-item {
+  background-color: #622574;
   padding: 10px;
 }
 .menu-item:focus, .menu-item:hover {
   background-color: #925b71;
-  outline: 2px solid #000;
-  outline-offset: 2px;
-  transform: scale(0.9);
+}
+
+.menu-item:first-child {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.menu-item:last-child {
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 
 #headerLogo {
