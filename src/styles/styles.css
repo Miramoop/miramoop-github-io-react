@@ -143,6 +143,12 @@ footer .social-links a:focus, footer .social-links a:hover {
   background-color: #839b88;
   padding: 5px;
 }
+#experience .card h2 {
+  color: #092c11;
+}
+#experience .card p {
+  color: #fff;
+}
 #experience .card:focus, #experience .card:hover {
   background-color: #925b71;
   transform: translateY(-10px);
@@ -167,6 +173,10 @@ footer .social-links a:focus, footer .social-links a:hover {
 #portfolio .card {
   background-color: #b6ab87;
   padding: 5px;
+}
+#portfolio .card img {
+  border-radius: 10%;
+  padding: 20px;
 }
 #portfolio .card:focus, #portfolio .card:hover {
   filter: brightness(85%);

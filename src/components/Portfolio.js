@@ -1,8 +1,5 @@
 import React from "react";
 
-//Possibly add a popup that explains the difference between the two button links,
-//rather than having to explain them in the paragraph section of the card
-
 function Portfolio() {
   return (
     <section id="portfolio">

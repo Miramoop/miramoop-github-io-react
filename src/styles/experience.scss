@@ -12,6 +12,12 @@
   .card {
     background-color: $greenTwo;
     padding: 5px;
+    h2 {
+      color: $greenThree;
+    }
+    p {
+      color: $thirdTextColor;
+    }
     &:focus,
     &:hover {
       background-color: $buttonHoverOne;
