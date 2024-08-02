@@ -83,6 +83,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
+  min-height: 600px;
 }
 #aboutme .about-col-1 {
   align-items: center;
