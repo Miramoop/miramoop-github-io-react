@@ -6,20 +6,29 @@
 }
 
 .header-navigation-bar-button {
-  padding-right: 10px;
+  margin-right: 10px;
+  padding: 5px;
 }
 .header-navigation-bar-button:focus, .header-navigation-bar-button:hover {
   background-color: #925b71;
 }
 
 .menu-item {
+  background-color: #622574;
   padding: 10px;
 }
 .menu-item:focus, .menu-item:hover {
   background-color: #925b71;
-  outline: 2px solid #000;
-  outline-offset: 2px;
-  transform: scale(0.9);
+}
+
+.menu-item:first-child {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.menu-item:last-child {
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 
 #headerLogo {
@@ -74,6 +83,7 @@ footer .social-links a:focus, footer .social-links a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
+  min-height: 600px;
 }
 #aboutme .about-col-1 {
   align-items: center;
@@ -143,6 +153,12 @@ footer .social-links a:focus, footer .social-links a:hover {
   background-color: #839b88;
   padding: 5px;
 }
+#experience .card h2 {
+  color: #092c11;
+}
+#experience .card p {
+  color: #fff;
+}
 #experience .card:focus, #experience .card:hover {
   background-color: #925b71;
   transform: translateY(-10px);
@@ -167,6 +183,10 @@ footer .social-links a:focus, footer .social-links a:hover {
 #portfolio .card {
   background-color: #b6ab87;
   padding: 5px;
+}
+#portfolio .card img {
+  border-radius: 10%;
+  padding: 20px;
 }
 #portfolio .card:focus, #portfolio .card:hover {
   filter: brightness(85%);

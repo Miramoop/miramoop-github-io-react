@@ -19,7 +19,7 @@ function Header() {
             </button>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 shadow right-0"
+              className="menu menu-sm dropdown-content rounded-box z-[1] mt-5 w-52 shadow right-0"
             >
               <li className="menu-item">
                 <a href="#header">Home</a>
