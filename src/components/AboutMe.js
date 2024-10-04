@@ -39,20 +39,24 @@ function AboutMe() {
                 <br></br>Software Development Projects
               </li>
               <li>
-                <span>HTML, CSS, JavaScript, Spotify API</span>
+                <span>HTML, JavaScript, & React</span>
                 <br></br>Web Development Projects
               </li>
               <li>
+                <span>Spotify API & YouTube API</span>
+                <br></br>Web Development Projects
+              </li>
+              <li>
+                <span>CSS & SASS</span>
+                <br></br>Web Development Styling
+              </li>
+              <li>
                 <span>PowerBI & MatLab</span>
-                <br></br>Data Analysis
+                <br></br>Data Analysis & Puzzles
               </li>
               <li>
-                <span>Unity Hub</span>
+                <span>Unity & Aseprite</span>
                 <br></br>Development of 2D & 3D Games
-              </li>
-              <li>
-                <span>Aseprite</span>
-                <br></br>Creation of Art for My Projects
               </li>
             </ul>
           </div>

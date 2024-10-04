@@ -4,6 +4,7 @@ import {
   faCode,
   faMusic,
   faSquarePollVertical,
+  faVest,
   faWindowRestore,
 } from "@fortawesome/free-solid-svg-icons";
 import { faUnity } from "@fortawesome/free-brands-svg-icons";
@@ -28,7 +29,7 @@ function Experience() {
           <div className="card-body">
             <h2 className="card-title">
               <FontAwesomeIcon icon={faWindowRestore} size="1x" />
-              HTML, CSS, & Javascript
+              HTML, Javascript, & React
             </h2>
             <p>Web Development, such as the Current Website & Quiz Tunes</p>
           </div>
@@ -47,6 +48,16 @@ function Experience() {
         <div className="card bg-base-100 w-96 shadow-xl">
           <div className="card-body">
             <h2 className="card-title">
+              <FontAwesomeIcon icon={faVest} size="1x" />
+              CSS & SASS
+            </h2>
+            <p>Styling on all my Web Development Projects</p>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 w-96 shadow-xl">
+          <div className="card-body">
+            <h2 className="card-title">
               <FontAwesomeIcon icon={faSquarePollVertical} size="1x" />
               MatLab
             </h2>
@@ -58,7 +69,7 @@ function Experience() {
           <div className="card-body">
             <h2 className="card-title">
               <FontAwesomeIcon icon={faUnity} size="1x" />
-              Aseprite & Unity Hub
+              Aseprite & Unity
             </h2>
             <p>Art Creation & Game Development</p>
           </div>
