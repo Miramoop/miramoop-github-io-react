@@ -35,7 +35,7 @@ function Hero() {
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/mirandamorris845/"
+                  href="https://www.linkedin.com/in/miramoop/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Page"
@@ -50,7 +50,7 @@ function Hero() {
                 >
                   <FontAwesomeIcon icon={faItchIo} size="2x" />
                 </a>
-                <a href="mailto:juniperistic@gmail.com" aria-label="Email Link">
+                <a href="mailto:miramoop@gmail.com" aria-label="Email Link">
                   <FontAwesomeIcon icon={faEnvelope} size="2x" />
                 </a>
               </div>
