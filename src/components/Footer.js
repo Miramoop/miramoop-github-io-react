@@ -36,7 +36,7 @@ function Footer() {
         >
           <FontAwesomeIcon icon={faItchIo} size="2x" />
         </a>
-        <a href="mailto:juniperistic@gmail.com" aria-label="Email Link">
+        <a href="mailto:miramoop@gmail.com" aria-label="Email Link">
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
       </div>
