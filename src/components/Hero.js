@@ -22,9 +22,8 @@ function Hero() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold">
-              Software Engineer & Tech Enthusiast
-            </h1>
+            <h1 className="mb-5 text-5xl font-bold">Hi, I'm Miranda</h1>
+            <h2 className="mb-5 text-3xl">Tech Enthusiast</h2>
             <nav>
               <div className="grid grid-flow-col gap-4 social-links">
                 <a
