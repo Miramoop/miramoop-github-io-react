@@ -11,12 +11,11 @@ function AboutMe() {
         <div className="aboutmebio">
           <h1>About Me</h1>
           <p>
-            Hello, I'm a Computer Science Student who dabbles in all sorts of
-            development projects! I tend to work on programming any types of
-            programs that intrigue me. These range from the development of
-            games, websites, applications, and various other programs. I enjoy
-            the creativity, problem solving, and analytical aspects the most
-            when it comes to developing projects.
+            I dabble in all sorts of development projects! I am intruiged by
+            learning new tech stacks & keeping up to date in the tech world. I
+            have developed games, websites, applications, & various other
+            programs. I enjoy the creativity, problem solving, & analytical
+            aspects the most when it comes to project development.
           </p>
         </div>
         <div role="tablist" className="tabs tabs-bordered">
@@ -25,38 +24,38 @@ function AboutMe() {
             name="my_tabs_1"
             role="tab"
             className="tab"
-            aria-label="Skills"
+            aria-label="IDES / Tools"
             defaultChecked
           />
+
           <div role="tabpanel" className="tab-content">
             <ul>
               <li>
-                <span>Visual Studio & Visual Studio Code</span>
-                <br></br>Code Development Environments
+                <span>Visual Studio / Visual Studio Code</span>
               </li>
               <li>
-                <span>C#, Python, Java, & Assembly</span>
-                <br></br>Software Development Projects
+                <span>Azure Services (Azure DevOps, Azure OpenAI, etc)</span>
               </li>
               <li>
-                <span>HTML, JavaScript, & React</span>
-                <br></br>Web Development Projects
+                <span>Jupyter Notebooks</span>
               </li>
               <li>
-                <span>Spotify API & YouTube API</span>
-                <br></br>Web Development Projects
+                <span>Godot Engine</span>
               </li>
               <li>
-                <span>CSS & SASS</span>
-                <br></br>Web Development Styling
+                <span>Unity Hub</span>
               </li>
               <li>
-                <span>PowerBI & MatLab</span>
-                <br></br>Data Analysis & Puzzles
+                <span>Aseprite</span>
               </li>
               <li>
-                <span>Unity & Aseprite</span>
-                <br></br>Development of 2D & 3D Games
+                <span>PowerBI</span>
+              </li>
+              <li>
+                <span>GitHub</span>
+              </li>
+              <li>
+                <span>Matlab</span>
               </li>
             </ul>
           </div>
@@ -66,46 +65,59 @@ function AboutMe() {
             name="my_tabs_1"
             role="tab"
             className="tab"
-            aria-label="Projects"
+            aria-label="Languages"
           />
           <div role="tabpanel" className="tab-content">
             <ul>
               <li>
-                <span> May 2024 - Current</span>
-                <br></br>Quiz Tunes
+                <span>C#</span>
               </li>
               <li>
-                <span> January 2023 - Current</span>
-                <br></br>Portfolio Website
+                <span>Python</span>
               </li>
               <li>
-                <span> September - December 2023</span>
-                <br></br>Retro Rocketeers Game
+                <span>Java</span>
               </li>
               <li>
-                <span> July 2023</span>
-                <br></br>Mission Demo Game
+                <span>Assembly</span>
               </li>
               <li>
-                <span> April - July 2023</span>
-                <br></br>Dino Rhythm Game
+                <span>HTML</span>
+              </li>
+              <li>
+                <span>CSS</span>
+              </li>
+              <li>
+                <span>SASS</span>
+              </li>
+              <li>
+                <span>JavaScript</span>
+              </li>
+              <li>
+                <span>React</span>
               </li>
             </ul>
           </div>
-
           <input
             type="radio"
             name="my_tabs_1"
             role="tab"
             className="tab"
-            aria-label="Education"
+            aria-label="APIs"
           />
           <div role="tabpanel" className="tab-content">
             <ul>
               <li>
-                <span>2019 - Current</span>
-                <br></br>Bachelors in Computer Science
-                <br></br> w/ Concentration in Gaming & Simulation
+                <span>Spotify API</span>
+              </li>
+              <li>
+                <span>YouTube API</span>
+              </li>
+              <li>
+                <span>Discord API</span>
+              </li>
+              <li>
+                <span>OpenAI API</span>
               </li>
             </ul>
           </div>
