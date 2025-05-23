@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import "./styles/styles.css";
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Hero />
       <AboutMe />
-      <Experience />
+      {/* <Experience /> */}
       <Portfolio />
       <Footer />
     </div>
