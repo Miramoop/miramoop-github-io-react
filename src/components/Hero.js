@@ -23,6 +23,7 @@ function Hero() {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-lg">
             <h1 className="mb-5 text-5xl font-bold">Hi, I'm Miranda</h1>
+            {/* Would love to add a moving text here with a variety of titles that I identify with */}
             <h2 className="mb-5 text-3xl">Tech Enthusiast</h2>
             <nav>
               <div className="grid grid-flow-col gap-4 social-links">
