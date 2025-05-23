@@ -27,9 +27,9 @@ function Header() {
               <li className="menu-item">
                 <a href="#aboutme">About</a>
               </li>
-              <li className="menu-item">
+              {/* <li className="menu-item">
                 <a href="#experience">Experience</a>
-              </li>
+              </li> */}
               <li className="menu-item">
                 <a href="#portfolio">Portfolio</a>
               </li>
