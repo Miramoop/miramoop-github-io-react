@@ -131,6 +131,58 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
+        <div className="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img src="/img/projects/SageGradient.png" alt="5" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Project Zenith</h2>
+            <p>
+              Project Zenith is a Discord Chatbot named Sage developed by myself
+              and three other students. It utilizes JavaScript, OpenAI, &
+              Heroku. Sage has four distinct personalities (Study Partner,
+              Witty, Nice, & Stoic), each with their own commands that help the
+              user in their daily tasks.
+            </p>
+            <div className="card-actions justify-end">
+              <a
+                href="https://github.com/SFleming12/CSCI497-Project"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 w-96 shadow-xl">
+          <figure>
+            <img src="img/projects/RetroRocketLogo.png" alt="5" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Retro Rocketeers</h2>
+            <p>
+              A 3D sandbox space game created by myself and three other
+              students. It was developed using C# & Unity. It includes many
+              features, such as inventory management, crafting, builing, combat,
+              item generation, & achievements.
+            </p>
+
+            <div className="card-actions justify-end">
+              <a
+                href=" https://github.com/Jclayton10/Retro-Rocketeers"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub Repo
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

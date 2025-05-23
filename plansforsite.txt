@@ -1,0 +1,7 @@
+React Site Plans:
+- Add detailed documentation
+- Add backend w/ database (can easily update details through that)
+- Make more accessible (colors, text, fonts, etc)
+- Add more projects / skills
+- Update About Me 
+- Update Logo / Art
